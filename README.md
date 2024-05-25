@@ -12,9 +12,14 @@ Therefore, this project aims to use IRIS and CNN model to detect the cloud in in
 A recent study highlighted the potential of using satellite cloud images for earthquake prediction, citing specific cloud characteristics observable before seismic events. This project uses data from the Copernicus Sentinel-3 satellite, which is equipped with instruments suitable for maritime, land, and atmospheric monitoring.
 
 ## Dataset
+Raw dataset from Copernicus Sentinel-3
 The IRIS dataset includes labeled images classified into 'Clear' and 'Cloud' categories, used for training our CNN model.
 
 ### Sentinel-3 Satellite Details
+![image](https://github.com/LiningChen/Cloud-Detection-in-Area-of-Taiwan-and-Southeast-China/assets/124793864/1ca0ebcb-47c2-44b6-a09d-9ccc55f52507)
+<img width="1334" alt="image" src="https://github.com/LiningChen/Cloud-Detection-in-Area-of-Taiwan-and-Southeast-China/assets/124793864/bf9a9415-0270-483a-8274-089d291eb46a">
+
+
 - **Altitude:** 814.5 km
 - **Inclination:** 98.65 degrees
 - **Orbit Period:** 100.99 minutes
@@ -30,18 +35,18 @@ The CNN model used in this project consists of:
 - **Convolution Layers:** Extract features by sliding filters across the image.
 - **Pooling Layers:** Reduce spatial dimensions (width and height) of the feature map.
 - **Fully Connected Layers:** Integrate information from feature maps to make final classification decisions.
+<img width="1334" alt="image" src="https://github.com/LiningChen/Cloud-Detection-in-Area-of-Taiwan-and-Southeast-China/assets/124793864/434f0df8-0ba7-4ae9-89e7-01885f9e0941">
+
 
 ## Installation
 ```bash
-git clone https://github.com/LiningChen/Cloud-Detection-in-Area-of-Taiwan-and-Southeast-China
-cd cloud-detection-cnn
+git clone https://github.com/LiningChen/Cloud-Detection-in-Area-of-Taiwan-and-Southeast-China.git
 ```
 
 ## Usage
 Run the detection model using:
-```bash
-python detect_clouds.py
-```
+Google colab
+IRIS
 
 ## Contributing
 Contributions to this project are welcome! Please fork the repository and submit a pull request with your enhancements.
