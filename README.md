@@ -12,7 +12,8 @@ Therefore, this project aims to use IRIS and CNN model to detect the cloud in in
 A recent study highlighted the potential of using satellite cloud images for earthquake prediction, citing specific cloud characteristics observable before seismic events. This project uses data from the Copernicus Sentinel-3 satellite, which is equipped with instruments suitable for maritime, land, and atmospheric monitoring.
 
 ## Dataset
-Raw dataset from Copernicus Sentinel-3
+Raw dataset from Copernicus Sentinel-3: S3B_OL_1_EFR____20240506T020744_20240506T021044_20240506T035831_0179_092_331_2520_PS2_O_NR_003.SEN3
+
 The IRIS dataset includes labeled images classified into 'Clear' and 'Thin Cloud' and "Thick Cloud"categories, used for training our CNN model.
 
 ### Sentinel-3 Satellite Details
