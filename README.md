@@ -13,7 +13,7 @@ A recent study highlighted the potential of using satellite cloud images for ear
 
 ## Dataset
 Raw dataset from Copernicus Sentinel-3
-The IRIS dataset includes labeled images classified into 'Clear' and 'Cloud' categories, used for training our CNN model.
+The IRIS dataset includes labeled images classified into 'Clear' and 'Thin Cloud' and "Thick Cloud"categories, used for training our CNN model.
 
 ### Sentinel-3 Satellite Details
 ![image](https://github.com/LiningChen/Cloud-Detection-in-Area-of-Taiwan-and-Southeast-China/assets/124793864/1ca0ebcb-47c2-44b6-a09d-9ccc55f52507)
@@ -45,8 +45,7 @@ git clone https://github.com/LiningChen/Cloud-Detection-in-Area-of-Taiwan-and-So
 
 ## Usage
 Run the detection model using:
-Google colab
-IRIS
+Google colab, IRIS
 
 ## Contributing
 Contributions to this project are welcome! Please fork the repository and submit a pull request with your enhancements.
@@ -57,4 +56,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 ## Acknowledgments
 - **Guangmeng G. & Jie Y.** for their foundational research on earthquake prediction using satellite images.
 - **Copernicus Sentinel-3** data used under the European Space Agency (ESA) data policy.
+- **totony4real** https://github.com/totony4real/GEOL0069-AI4EO.git
 ---
